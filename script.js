@@ -7,3 +7,11 @@ let random  = jokes[Math.floor(Math.random()*jokes.length)]
 let u = document.getElementById("box-3")
 
 u.innerHTML= random;
+
+
+
+let a = document.getElementById("btn")
+
+a.onclick = function(){
+  window.location.reload()
+}
